@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+
+body {
+    font-family: 'Smythe', cursive;
+}
+
+.parent {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.head {
+    width: 600px;
+    height: 170px;
+    position: relative;
+}
+
+img {
+    width: 600px;
+
+    height: 170px;
+    object-fit: cover;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+
+.sub-head {
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+/* menu-items-css */
+
+.single-item {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    border-bottom: 2px solid lightgrey;
+    padding: 20px;
+}
+
+.emoji {
+    font-size: 65px;
+    justify-self: start;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: black;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+}
+
+.about-item {
+    padding-left: 0;
+    font-family: 'Smythe', cursive;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.name {
+    font-size: 28px;
+
+}
+
+.ingredient {
+    font-size: 20px;
+    color: grey;
+    padding: 4px 0px;
+}
+
+.price {
+    font-size: 18px;
+    color: black;
+    padding: 4px 0px;
+
+}
+
+/* Your-order-section */
+.complete-btn {
+    background-color: #16DB99;
+    color: white;
+    padding: 12px 140px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: flex;
+}

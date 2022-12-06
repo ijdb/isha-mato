@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" type="module"></script>
+  </head>
+  <body>
+    <div class="parent">
+      <!-- head-section -->
+      <div class="head">
+        <img
+          src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YnVyZ2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt="burger"
+        />
+        <h1>Jimmy's Diner</h1>
+        <p class="sub-head">The best burgers and pizzas in town.</p>
+      </div>
+      <!--menu-section -->
+      <div class="menu" id="menu"></div>
+      <!-- your-order-section -->
+      <div class="hidden" id="your-order-section">
+        <h2>Your order</h2>
+        <div class="order-details" id="details"></div>
+        <button class="complete-btn" id="complete-btn">Complete order</button>
+      </div>
+    </div>
+  </body>
 </html>
